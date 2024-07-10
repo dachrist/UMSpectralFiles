@@ -1,0 +1,216 @@
+*BLOCK: TYPE =    0: SUBTYPE =    0: VERSION =    2
+Summary of spectral data.
+Number of spectral bands =    32
+Total number of gaseous absorbers =    13
+List of indexing numbers and absorbers.
+Index       Absorber(identifier and name)
+    1           1       Water Vapour        
+    2           2       Carbon Dioxide      
+    3           5       Carbon monoxide     
+    4           6       Methane             
+    5          11       Ammonia             
+    6          23       Hydrogen            
+    7          24       Helium              
+    8          26       Sodium              
+    9          27       Potassium           
+   10          30       Lithium             
+   11          31       Rubidium            
+   12          32       Cesium              
+   13          35       Hydrogen cyanide    
+*END
+*BLOCK: TYPE =    1: SUBTYPE =    0: VERSION =    0
+Specification of spectral intervals
+Limits of spectral intervals (wavelengths in m.)
+Band        Lower limit         Upper limit
+    1        4.608294931E-05     3.225806452E-04
+    2        2.000000000E-05     4.608294931E-05
+    3        1.039501040E-05     2.000000000E-05
+    4        6.451612903E-06     1.039501040E-05
+    5        5.219206681E-06     6.451612903E-06
+    6        4.399472063E-06     5.219206681E-06
+    7        3.799392097E-06     4.399472063E-06
+    8        3.288391976E-06     3.799392097E-06
+    9        2.988643156E-06     3.288391976E-06
+   10        2.505010020E-06     2.988643156E-06
+   11        2.170138889E-06     2.505010020E-06
+   12        2.020202020E-06     2.170138889E-06
+   13        1.777145904E-06     2.020202020E-06
+   14        1.593117731E-06     1.777145904E-06
+   15        1.497005988E-06     1.593117731E-06
+   16        1.329964091E-06     1.497005988E-06
+   17        1.197031362E-06     1.329964091E-06
+   18        1.099989000E-06     1.197031362E-06
+   19        1.005025126E-06     1.099989000E-06
+   20        9.599692810E-07     1.005025126E-06
+   21        9.100009100E-07     9.599692810E-07
+   22        8.599931201E-07     9.100009100E-07
+   23        7.849909726E-07     8.599931201E-07
+   24        7.449899426E-07     7.849909726E-07
+   25        6.749915626E-07     7.449899426E-07
+   26        6.119951040E-07     6.749915626E-07
+   27        5.719842132E-07     6.119951040E-07
+   28        4.950004950E-07     5.719842132E-07
+   29        4.000000000E-07     4.950004950E-07
+   30        3.571428571E-07     4.000000000E-07
+   31        3.148515475E-07     3.571428571E-07
+   32        2.000000000E-07     3.148515475E-07
+*END
+*BLOCK: TYPE =    4: SUBTYPE =    0: VERSION =    0
+Gaseous absorbers in each interval
+(The number is the indexing number of the species as set out
+ in the summary block 0.)
+A zero indicates that there in no gaseous absorption in the interval.
+Band        Number of active absorbers followed by indexing numbers
+    1           8
+         1    2    3    4
+    5    6    7   13
+    2           8
+         1    2    3    4
+    5    6    7   13
+    3           8
+         1    2    3    4
+    5    6    7   13
+    4           8
+         1    2    3    4
+    5    6    7   13
+    5           8
+         1    2    3    4
+    5    6    7   13
+    6           8
+         1    2    3    4
+    5    6    7   13
+    7           8
+         1    2    3    4
+    5    6    7   13
+    8           8
+         1    2    3    4
+    5    6    7   13
+    9           8
+         1    2    3    4
+    5    6    7   13
+   10           8
+         1    2    3    4
+    5    6    7   13
+   11           8
+         1    2    3    4
+    5    6    7   13
+   12           8
+         1    2    3    4
+    5    6    7   13
+   13          13
+         1    2    3    4
+    5    6    7    8
+    9   10   11   12
+   13
+   14          13
+         1    2    3    4
+    5    6    7    8
+    9   10   11   12
+   13
+   15          13
+         1    2    3    4
+    5    6    7    8
+    9   10   11   12
+   13
+   16          13
+         1    2    3    4
+    5    6    7    8
+    9   10   11   12
+   13
+   17          13
+         1    2    3    4
+    5    6    7    8
+    9   10   11   12
+   13
+   18          12
+         1    3    4    5
+    6    7    8    9
+   10   11   12   13
+   19          11
+         1    4    5    6
+    7    8    9   10
+   11   12   13
+   20          10
+         1    4    5    7
+    8    9   10   11
+   12   13
+   21          10
+         1    4    5    7
+    8    9   10   11
+   12   13
+   22          10
+         1    4    5    7
+    8    9   10   11
+   12   13
+   23           8
+         1    7    8    9
+   10   11   12   13
+   24           8
+         1    7    8    9
+   10   11   12   13
+   25           8
+         1    7    8    9
+   10   11   12   13
+   26           8
+         1    7    8    9
+   10   11   12   13
+   27           7
+         1    7    8    9
+   10   11   12
+   28           6
+         1    8    9   10
+   11   12
+   29           6
+         1    8    9   10
+   11   12
+   30           6
+         1    8    9   10
+   11   12
+   31           6
+         1    8    9   10
+   11   12
+   32           5
+         8    9   10   11
+   12
+*END
+*BLOCK: TYPE =    8: SUBTYPE =    0: VERSION =    0
+Continuum absorbers in each interval
+(The number is the indexing number of each type as set out
+ in the module rad_pcf.)
+A zero indicates that there is no continuum absorption in the interval.
+Band         Number of active continua followed by indexing numbers
+    1           0
+    2           0
+    3           0
+    4           0
+    5           0
+    6           0
+    7           0
+    8           0
+    9           0
+   10           0
+   11           0
+   12           0
+   13           0
+   14           0
+   15           0
+   16           0
+   17           0
+   18           0
+   19           0
+   20           0
+   21           0
+   22           0
+   23           0
+   24           0
+   25           0
+   26           0
+   27           0
+   28           0
+   29           0
+   30           0
+   31           0
+   32           0
+Indexing numbers of gases for continua:
+     Index of water =     1
+*END
